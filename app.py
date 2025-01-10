@@ -1,5 +1,4 @@
 import streamlit as st
-
 from prediction import predict
 
 work_types = {
@@ -20,7 +19,12 @@ smoking_statuses = {
 
 def main():
     st.title("Stroke Prediction")
-    st.write("This is a stroke prediction app")
+    st.write(
+        "This is a Stroke Prediction Model developed by Aditya Pandey and Dheeraj. Input relevant health and demographic details below to predict the likelihood of having a stroke. "
+    )
+    st.info(
+        "This model is not a substitute for professional medical advice. Please consult a doctor for accurate diagnosis and treatment."
+    )
 
     # input data from user ---------------------------------------------------
 
