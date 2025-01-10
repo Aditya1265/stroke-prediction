@@ -2,6 +2,8 @@
 
 This is a Stroke Prediction Model. The app allows users to input relevant health and demographic details to predict the likelihood of having a stroke. This proof-of-concept application is designed for educational purposes and should not be used for medical advice. 
 
+[Run the model here](https://stroke-prediction-model.streamlit.app/)
+
 ## Features
 - User-Friendly Interface: Simple and interactive input forms for all relevant details.
 - BMI Calculation: Automatically calculates BMI based on the user's height and weight.
